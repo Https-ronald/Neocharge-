@@ -1,0 +1,12 @@
+{
+  "name": "virtualtopup-scripts",
+  "version": "1.0.0",
+  "scripts": {
+    "seed-free-data": "tsx seed-free-api-data.ts",
+    "seed-vtpass-data": "tsx seed-live-data.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "tsx": "^4.7.0"
+  }
+}
